@@ -1,5 +1,8 @@
 #!/bin/bash
 
+username="akshat"
+echo $username
+
 set -x
 # Arithmatic operation
 echo $((3+4))
