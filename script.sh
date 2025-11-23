@@ -27,6 +27,12 @@ echo $?
 # 0 -> success
 # non-zero -> failure
 
+
+# Read a file from test.csv
+while IFS=, read -r column1 column2 column3; do
+  echo $column1 ", " $column2 ", " $column3
+done < test.csv
+
 # use set for debug
 set -x
 # Arithmatic operation
