@@ -42,3 +42,15 @@ echo $((3+4))
 echo $(expr 3 + 4)
 # o/p = 7
 set +x
+
+# how to handle trap signals
+trap 'echo "Signal recevied, cleaning"; cleanup_fun; exit' SIGINT SIGTERM
+
+cleanup_fun() {
+  echo "Cleaning"
+  # cleaning commands
+}
+
+while true; do
+  sleep 1
+done
