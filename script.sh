@@ -1,7 +1,13 @@
 #!/bin/bash
 
+#chmod +x script.sh
+# ./script.sh
+
+
 username="akshat"
 echo $username
+
+#chmod +x ./script.sh
 
 set -x
 # Arithmatic operation
