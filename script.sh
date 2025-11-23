@@ -64,3 +64,10 @@ done
 
 echo ${arrays[0]}
 echo ${arrays[@]}
+
+# String manipulation
+str="Hello, New World!"
+
+echo ${str:7:9}
+echo ${str/New/My}
+echo ${#str}
