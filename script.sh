@@ -54,3 +54,13 @@ cleanup_fun() {
 while true; do
   sleep 1
 done
+
+
+# Arrays
+arrays={e1 e2 e3 e4}
+for item in arrays[@]; do
+  echo $item
+done
+
+echo ${arrays[0]}
+echo ${arrays[@]}
