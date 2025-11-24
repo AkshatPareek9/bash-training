@@ -11,6 +11,11 @@
 3. Write a script to rotate logs on a weekly basis.  
 => script3.sh
 
-4. Write a script to compress and archive old log files.
+4. Write a script to compress and archive old log files.  
 => script4.sh
 
+5. How to check if a service is running and start if it's not via script.  
+=> script5.sh
+
+6. How to check if any of the one from multiple services are running and start if it any of them is not running via script.  
+=> script6.sh
